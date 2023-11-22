@@ -11,22 +11,24 @@ namespace LivestockMgmt.Controllers
     public class StockDosageController : ControllerBase
     {
         private readonly ApiDbContext _context;
-        public StockDosageController(ApiDbContext dbContext) 
+
+        public StockDosageController(ApiDbContext dbContext)
         {
-            _context=dbContext;
+            _context = dbContext;
         }
-        [HttpGet]
+
+        [HttpGet("getStockDosages")]
         public async Task<ActionResult<IEnumerable<StockDosage>>> getStockDosage()
         {
             return await _context.StockDosages.ToListAsync();
         }
 
-        [HttpGet]
+        [HttpGet("getStockDosageById")]
         public async Task<ActionResult<StockDosage>> getDosageById(int stock_dosage_id)
         {
             var get_stock_dosage_id = await _context.StockDosages.FindAsync(stock_dosage_id);
 
-            if(get_stock_dosage_id == null)
+            if (get_stock_dosage_id == null)
             {
                 return NotFound();
             }
@@ -50,7 +52,6 @@ namespace LivestockMgmt.Controllers
             if (get_dosage_id == null)
             {
                 return NotFound();
-
             }
 
             _context.StockDosages.Remove(get_dosage_id);
@@ -87,12 +88,5 @@ namespace LivestockMgmt.Controllers
         {
             throw new NotImplementedException();
         }
-    }
-
-
-
-
-
-        
     }
 }

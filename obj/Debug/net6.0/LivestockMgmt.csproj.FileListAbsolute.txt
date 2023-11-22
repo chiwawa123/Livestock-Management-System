@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.AssemblyInfo.cs
+C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.MvcApplicationPartsAssemblyInfo.cache
