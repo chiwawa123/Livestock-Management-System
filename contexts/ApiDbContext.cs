@@ -12,7 +12,7 @@ namespace LivestockMgmt.contexts
         {
             
         }
-        public DbSet<Farm> Farmers { get; set; }
+        public DbSet<Farmer> Farmers { get; set; }
         public DbSet<Farm> Farms { get; set; }
         public DbSet<Livestock> Livestocks { get; set; }
         public DbSet<StockDosage> StockDosages { get; set; }

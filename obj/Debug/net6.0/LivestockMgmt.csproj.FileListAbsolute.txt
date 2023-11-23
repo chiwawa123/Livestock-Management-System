@@ -1,10 +1,3 @@
-C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.csproj.AssemblyReference.cache
-C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.AssemblyInfoInputs.cache
-C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.AssemblyInfo.cs
-C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.csproj.CoreCompileInputs.cache
-C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\source\repos\LivestockMgmt\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\user\source\repos\LivestockMgmt\bin\Debug\net6.0\appsettings.json
 C:\Users\user\source\repos\LivestockMgmt\bin\Debug\net6.0\LivestockMgmt.exe
@@ -24,6 +17,13 @@ C:\Users\user\source\repos\LivestockMgmt\bin\Debug\net6.0\Pomelo.EntityFramework
 C:\Users\user\source\repos\LivestockMgmt\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\user\source\repos\LivestockMgmt\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\user\source\repos\LivestockMgmt\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.AssemblyInfo.cs
+C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\staticwebassets\msbuild.LivestockMgmt.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\staticwebassets\msbuild.build.LivestockMgmt.props
 C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LivestockMgmt.props
@@ -38,3 +38,44 @@ C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\refint\LivestockMgmt.d
 C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.pdb
 C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\LivestockMgmt.genruntimeconfig.cache
 C:\Users\user\source\repos\LivestockMgmt\obj\Debug\net6.0\ref\LivestockMgmt.dll
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\appsettings.Development.json
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\appsettings.json
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\LivestockMgmt.exe
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\LivestockMgmt.deps.json
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\LivestockMgmt.runtimeconfig.json
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\LivestockMgmt.dll
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\LivestockMgmt.pdb
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\Humanizer.dll
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\MySqlConnector.dll
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\michael\asp.net projects\Livestock-Management-System\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\LivestockMgmt.csproj.AssemblyReference.cache
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\LivestockMgmt.GeneratedMSBuildEditorConfig.editorconfig
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\LivestockMgmt.AssemblyInfoInputs.cache
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\LivestockMgmt.AssemblyInfo.cs
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\LivestockMgmt.csproj.CoreCompileInputs.cache
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\LivestockMgmt.MvcApplicationPartsAssemblyInfo.cs
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\LivestockMgmt.MvcApplicationPartsAssemblyInfo.cache
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\LivestockMgmt.sourcelink.json
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\staticwebassets.build.json
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\staticwebassets.development.json
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\staticwebassets\msbuild.LivestockMgmt.Microsoft.AspNetCore.StaticWebAssets.props
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\staticwebassets\msbuild.build.LivestockMgmt.props
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LivestockMgmt.props
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LivestockMgmt.props
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\staticwebassets.pack.json
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\scopedcss\bundle\LivestockMgmt.styles.css
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\LivestockMgmt.csproj.CopyComplete
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\LivestockMgmt.dll
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\refint\LivestockMgmt.dll
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\LivestockMgmt.pdb
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\LivestockMgmt.genruntimeconfig.cache
+C:\michael\asp.net projects\Livestock-Management-System\obj\Debug\net6.0\ref\LivestockMgmt.dll

@@ -14,7 +14,7 @@ namespace LivestockMgmt.Controllers
         public FarmController(ApiDbContext dbContext) {
             _context = dbContext;
         }
-        [HttpGet("getAllFarms")]
+        [HttpGet]
         public async Task<ActionResult<IEnumerable<Farm>>> getFarms()
         {
             return await _context.Farms.ToListAsync();
@@ -59,7 +59,7 @@ namespace LivestockMgmt.Controllers
             return Ok();
         }
         [HttpPost("updateFarm")]
-        public async Task<IActionResult> updateFarm(Farm farm)
+        public async Task<IActionResult> putProgramme(Farm farm)
         {
             int farm_id = farm.farm_id;
 
