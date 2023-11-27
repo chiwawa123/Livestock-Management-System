@@ -1,5 +1,11 @@
 using LivestockMgmt.contexts;
+using LivestockMgmt.Models;
+using LivestockMgmt.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,10 +16,34 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
-// Dependency Injection of StudentDBContext
+// Dependency Injection of ApiDBContext
 var conn = builder.Configuration.GetConnectionString("DevConnection");
 builder.Services.AddDbContext<ApiDbContext>(options => options.UseMySql(conn, ServerVersion.AutoDetect(conn)));
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+{
+    options.Password.RequiredLength = 5;
+
+}).AddEntityFrameworkStores<ApiDbContext>().AddDefaultTokenProviders();
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters()
+    {
+        ValidateActor = true,
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        RequireExpirationTime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration.GetSection("Jwt:Issuer").Value,
+        ValidAudience = builder.Configuration.GetSection("Jwt:Audience").Value
+    };
+});
+
+builder.Services.AddTransient<IAuthService,AuthService>();
 
 var app = builder.Build();
 
