@@ -1,10 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LivestockMgmt.Models
 {
-    public class LoginUser
+    public class LoginUser : IdentityUser
     {
-        public string Username { get; set; }
+        public string Email { get; set; }
 
         public string Password { get; set; }
 

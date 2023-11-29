@@ -22,8 +22,8 @@ namespace LivestockMgmt.Services
         {
             var identityUser = new IdentityUser()
             {
-                UserName = user.Username,
-                Email = user.Username,
+              Email = user.Email,
+              UserName = user.Email,
               
             };
 
@@ -33,7 +33,7 @@ namespace LivestockMgmt.Services
         }
         public async Task<bool> Login(LoginUser user)
         {
-            var identityUser = await _userManager.FindByEmailAsync(user.Username);
+            var identityUser = await _userManager.FindByEmailAsync(user.Email);
             if (identityUser == null)
             {
                 return false;

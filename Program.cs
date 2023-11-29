@@ -45,6 +45,21 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddTransient<IAuthService,AuthService>();
 
+var allowedOrigins = "_allowedOrigins";
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: allowedOrigins,
+                      policy =>
+                      {
+                          policy.AllowAnyOrigin()
+                                .AllowAnyHeader()
+                                .AllowAnyMethod()
+                                .WithExposedHeaders("*");
+                      });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -55,6 +70,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseCors(allowedOrigins);
 
 app.UseAuthorization();
 
