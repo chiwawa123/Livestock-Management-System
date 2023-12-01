@@ -30,7 +30,7 @@ namespace LivestockMgmt.Models
         public string id_number { get; set; }
 
         [Column("user_id")]
-        public int user_id { get; set; }
+        public string user_id { get; set; }
 
 
     }
