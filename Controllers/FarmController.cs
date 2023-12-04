@@ -39,7 +39,12 @@ namespace LivestockMgmt.Controllers
             _context.Farms.Add(farm);
             await _context.SaveChangesAsync();
 
-            return Ok(farm);
+            return Ok(new
+            {
+                farm = farm,
+                message = "farm was added successfully",
+                status =200
+            });    
         }
 
         [HttpPost("deleteFarm")]
