@@ -18,7 +18,7 @@ namespace LivestockMgmt.Services
 
             using (var conn = _context.CreateConnection())
             {
-                var farms = await conn.QueryAsync<Farm>(query, new { farmer_id});
+                var farms = await conn.QueryAsync<Farm>(query, new { farmer_id });
 
                 return farms.ToList();
             }
