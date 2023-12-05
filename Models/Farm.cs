@@ -16,9 +16,6 @@ namespace LivestockMgmt.Models
         [Column("farm_name")]
         public string farm_name { get; set; }
 
-        [Column("district")]
-        public string Description { get; set; }
-
         [Column("province")]
         public string province { get; set; }
         [Column("farmer_id")]
@@ -30,7 +27,7 @@ namespace LivestockMgmt.Models
         [Column("farm_description")]
         public string farm_description { get; set; }
 
-       
+        public string first_name { get; set; }
 
     }
 }

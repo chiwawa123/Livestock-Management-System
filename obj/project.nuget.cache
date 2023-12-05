@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dHXIcOHNhaeG0vFLL545sRyUx8e9t+5fqYmqGHCiSnrwLnT/k2UN58Wdcwix9VFLcJxpCThBMZrWgtmKhAEx9w==",
+  "dgSpecHash": "8fCi4tevORVbhZvDK8/v3C2I3l2J9SsNnRt98kXZZvlZi2J51hthXrC4gMc1nEffFzM4f6po2ssEWmfPBkJ/VA==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\Livestock-Management-System\\LivestockMgmt.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\dapper\\2.1.24\\dapper.2.1.24.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.1.1\\microsoft.aspnetcore.authentication.2.1.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.1.1\\microsoft.aspnetcore.authentication.abstractions.2.1.1.nupkg.sha512",

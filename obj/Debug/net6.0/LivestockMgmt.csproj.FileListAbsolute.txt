@@ -126,6 +126,7 @@ C:\Users\user\Desktop\Livestock-Management-System\bin\Debug\net6.0\LivestockMgmt
 C:\Users\user\Desktop\Livestock-Management-System\bin\Debug\net6.0\LivestockMgmt.runtimeconfig.json
 C:\Users\user\Desktop\Livestock-Management-System\bin\Debug\net6.0\LivestockMgmt.dll
 C:\Users\user\Desktop\Livestock-Management-System\bin\Debug\net6.0\LivestockMgmt.pdb
+C:\Users\user\Desktop\Livestock-Management-System\bin\Debug\net6.0\Dapper.dll
 C:\Users\user\Desktop\Livestock-Management-System\bin\Debug\net6.0\Humanizer.dll
 C:\Users\user\Desktop\Livestock-Management-System\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\user\Desktop\Livestock-Management-System\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

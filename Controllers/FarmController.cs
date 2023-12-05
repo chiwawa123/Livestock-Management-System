@@ -1,8 +1,11 @@
-﻿using LivestockMgmt.contexts;
+﻿using Dapper;
+using LivestockMgmt.contexts;
 using LivestockMgmt.Models;
+using LivestockMgmt.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MySqlConnector;
 
 namespace LivestockMgmt.Controllers
 {
@@ -11,14 +14,27 @@ namespace LivestockMgmt.Controllers
     public class FarmController : ControllerBase
     {
         private readonly ApiDbContext _context;
-        public FarmController(ApiDbContext dbContext) {
+        private readonly IConfiguration _config;
+        private readonly IFarmRepo _farmRepo;
+
+        public FarmController(ApiDbContext dbContext, IConfiguration configuration,IFarmRepo farmRepo) {
             _context = dbContext;
+            _config = configuration;
+            _farmRepo = farmRepo;
+      
         }
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Farm>>> getFarms()
+
+        [HttpPost("getFarmsByFarmerId")]
+        public async Task<IActionResult> getFarms(int farmer_id)
         {
-            return await _context.Farms.ToListAsync();
+            var farms = await _farmRepo.GetFarms(farmer_id);
+            if (farms == null)
+            {
+                return NotFound();
+            }
+            return Ok(farms);
         }
+   
 
         [HttpGet("FarmById")]
         public async Task<ActionResult<Farm>> getFarmById(int farm_id)

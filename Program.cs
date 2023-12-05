@@ -18,6 +18,7 @@ builder.Services.AddSwaggerGen();
 
 // Dependency Injection of ApiDBContext
 var conn = builder.Configuration.GetConnectionString("DevConnection");
+
 builder.Services.AddDbContext<ApiDbContext>(options => options.UseMySql(conn, ServerVersion.AutoDetect(conn)));
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {
@@ -44,6 +45,7 @@ builder.Services.AddAuthentication(options =>
 });
 
 builder.Services.AddTransient<IAuthService,AuthService>();
+builder.Services.AddScoped<IFarmRepo, FarmRepo>();
 
 var allowedOrigins = "_allowedOrigins";
 
@@ -59,6 +61,7 @@ builder.Services.AddCors(options =>
                                 .WithExposedHeaders("*");
                       });
 });
+
 
 var app = builder.Build();
 
